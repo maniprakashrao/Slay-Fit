@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# Slay-Fit 👗✨
 
-## Project info
+Your AI-powered personal stylist for perfect outfit suggestions every day.
 
-**URL**: https://lovable.dev/projects/493e81a0-99d7-4ea5-bd86-931b70ec447a
+## 🌟 Features
 
-## How can I edit this code?
+- **AI Outfit Recommendations** - Get personalized outfit suggestions based on your style
+- **Weather-Adaptive Clothing** - Outfits tailored to current weather conditions
+- **Virtual Closet** - Upload and organize your clothing items
+- **Style Preferences** - Customize recommendations based on your fashion taste
+- **Occasion-Based Outfits** - Perfect looks for work, parties, casual outings, and more
+- **Trend Insights** - Stay updated with current fashion trends
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend**: React.js / HTML5 / CSS3 / JavaScript
+- **Backend**: Node.js / Express
+- **AI/ML**: TensorFlow.js / OpenAI / Custom recommendation engine
+- **Database**: MongoDB / Firebase
+- **Authentication**: Google OAuth 2.0
+- **Weather API**: OpenWeatherMap
+- **Deployment**: Vercel / Netlify
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/493e81a0-99d7-4ea5-bd86-931b70ec447a) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/maniprakashrao/Slay-Fit.git
+   cd Slay-Fit
+Install dependencies
 
-**Use your preferred IDE**
+bash
+npm install
+Set up environment variables
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+bash
+cp .env.example .env
+Add your API keys in the .env file
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Run the application
 
-Follow these steps:
+bash
+npm start
+🔧 Configuration
+Create a .env file with:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+env
+GOOGLE_CLIENT_ID=your_google_client_id
+WEATHER_API_KEY=your_openweather_api_key
+AI_API_KEY=your_ai_service_key
+DATABASE_URL=your_database_connection
+👗 How to Use
+Create Profile - Set your style preferences, sizes, and favorite colors
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Build Virtual Closet - Upload photos of your clothing items
 
-# Step 3: Install the necessary dependencies.
-npm i
+Get Daily Outfits - Receive AI-curated outfits based on weather and occasions
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Save Favorites - Save your favorite outfit combinations
 
-**Edit a file directly in GitHub**
+Explore Trends - Discover new fashion trends and styles
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🎯 Use Cases
+Morning Routine - Quick outfit suggestions for your day
 
-**Use GitHub Codespaces**
+Special Events - Find perfect outfits for parties, dates, interviews
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Seasonal Wardrobe - Adapt your style to different seasons
 
-## What technologies are used for this project?
+Travel Packing - Get outfit suggestions for your trips
 
-This project is built with:
+📱 App Preview
+(Add screenshots of your outfit suggestions interface)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🤝 Contributing
+We love contributions! Please see our Contributing Guide for details.
 
-## How can I deploy this project?
+📄 License
+This project is licensed under the MIT License.
 
-Simply open [Lovable](https://lovable.dev/projects/493e81a0-99d7-4ea5-bd86-931b70ec447a) and click on Share -> Publish.
+👥 Author
+Your Name - @maniprakashrao
 
-## Can I connect a custom domain to my Lovable project?
+🙏 Acknowledgments
+Fashion datasets and inspiration sources
 
-Yes, you can!
+AI model providers
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+UI/design inspiration
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+text
+
+## Quick Basic Version:
+```markdown
+# Slay-Fit 👗
+
+AI-powered outfit suggestion app that helps you slay your look every day.
+
+## Features
+- Personalized outfit recommendations
+- Weather-appropriate clothing suggestions
+- Virtual closet organization
+- Style preference customization
+
+## Installation
+```bash
+git clone https://github.com/maniprakashrao/Slay-Fit.git
+npm install
+npm start
